@@ -1,0 +1,20 @@
+{
+  "name": "y",
+  "version": "0.0.1",
+  "description": "movie stub sample site",
+  "main": "y",
+  "scripts": {
+    "test": "echo \"no test command\""
+  },
+  "author": "riki",
+  "license": "mit",
+  "devDependencies": {
+    "express": "^4.6.1",
+    "slush-express": "^0.2.7",
+     "morgan": "~1.2.2",
+    "body-parser": "~1.0.0",
+    "method-override": "~1.0.0",
+    "serve-favicon":"~2.0.1",
+   
+  }
+}
