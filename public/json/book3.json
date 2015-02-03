@@ -1,0 +1,154 @@
+{
+   "pt":"676",
+   "buyingAsin":"0596009208",
+   "original_book_type":"print",
+   "binding":"Paperback",
+   "authorNameList":[
+      "Kathy Sierra",
+      "Bert Bates"
+   ],
+   "intlField":"",
+   "sessionId":"189-8296408-1523331",
+   "reviewStarsImageTag":"<span class=\"crAvgStars\" style=\"white-space:no-wrap;\"><span class=\"asinReviewsSummary\" name=\"0596009208\" ref=\"rdr_ext_cr_cm_cr_acr_pop_\" >\n             <a href=\"http://www.amazon.com/Head-First-Java-2nd-Edition/product-reviews/0596009208/ref=rdr_ext_cr_cm_cr_acr_img?ie=UTF8&showViewpoints=1\" ><img src=\"http://g-ecx.images-amazon.com/images/G/01/x-locale/common/customer-reviews/ratings/stars-4-0._V192251205_.gif\" width=\"55\" alt=\"4.2 out of 5 stars\" align=\"absbottom\" title=\"4.2 out of 5 stars\" height=\"12\" border=\"0\" /></a>&nbsp;</span>(<a href=\"http://www.amazon.com/Head-First-Java-2nd-Edition/product-reviews/0596009208/ref=rdr_ext_cr_cm_cr_acr_txt?ie=UTF8&showViewpoints=1\" >440</a>)</span>",
+   "sampleSearches":[
+      "inner object",
+      "code kitchen",
+      "bass drum"
+   ],
+   "pageLabelSet":"(2,r,1),(34,a,1)",
+   "xPages":"21,81,103,157,305,503,613,639,709",
+   "t1Tokens":{
+
+   },
+   "requestId":"105KPEFTKV4HH8B860W8",
+   "st":"34",
+   "buyingPrice":28.95,
+   "level":0,
+   "bookmarks":[
+      [
+         "Front Cover",
+         1,
+         1
+      ],
+      [
+         "Copyright",
+         7,
+         1
+      ],
+      [
+         "Table of Contents",
+         10,
+         11
+      ],
+      [
+         "First Pages",
+         34,
+         33
+      ],
+      [
+         "Index",
+         710,
+         12
+      ],
+      [
+         "Back Cover",
+         722,
+         1
+      ]
+   ],
+   "type":"print",
+   "title":"Head First Java, 2nd Edition",
+   "thumbnailImage":"http://ecx.images-amazon.com/images/I/51a1RPCmv7L._SL75_PIsitb-sticker-arrow-st,TopRight,8,-14_OU01_.jpg",
+   "kindleAsin":"B009KCUX3S",
+   "orientation":"lrtb",
+   "largeImageUrls":{
+      "1":"http://d1b14unh5d6w7g.cloudfront.net/0596009208.01.S001.LXXXXXXX.jpg?Expires=1421770620&Signature=VA3tWiE7/oh/VucNu8nBB7MRWPxSRbIelPXtqe38qYxmMOtneVd5C6/rnna7dptLn1u2NT/0UCNOJhdhPIaJNNFuO4cKyWCNyDLHLsnAAFmuMdDeb15Vv3r4bFGzbnxiVj7mCzgYe5wYE2aJ2CTSpeKjX1+wP4pvDLwtNMrZMyg=&Key-Pair-Id=APKAIUO27P366FGALUMQ",
+      "34":"http://d1b14unh5d6w7g.cloudfront.net/0596009208.01.S00Y.LXXXXXXX.jpg?Expires=1421770620&Signature=Sd4r+ekwU6Dykweig40GiRADWwpK/TKLf+K9vrDXARzI4qLW58hy3wmJr4n5iqYrBHN7uyeaaFJafbU23mff+afxkv9VOJXGiJk8InTUVSljaKwGsnQpoh2/IFQW78k1YNahylNyWbIjkXeT5Vj+jzq0F0vCX1trPkN9YHqjcu4=&Key-Pair-Id=APKAIUO27P366FGALUMQ",
+      "710":"http://d1b14unh5d6w7g.cloudfront.net/0596009208.01.S0JQ.LXXXXXXX.jpg?Expires=1421770621&Signature=FvDnViUBFcdQ3GMyqWyzLrF3DG9BzfKyJe+hltqgnuE/n6+g5owSNH3ZAatuoM1U3+vpprK8vgNhPS4XspTOGi34b0LS6KEe8RlpOgM9JGfBu87Gd39NI3SXlydpD+xg6pXi2FERox+X8YT8/h1mRWhTvMSxd+zDCMit05z2bns=&Key-Pair-Id=APKAIUO27P366FGALUMQ",
+      "722":"http://d1b14unh5d6w7g.cloudfront.net/0596009208.01.S0K2.LXXXXXXX.jpg?Expires=1421770621&Signature=fL5191Y461uA70B0jGy1pxirk6Sk6Z8OKefhLzW8oFP0hWetN3tesTU7fuzpzzqiGHicE+0SXUiQMQpfJwjtzC4FQoOxLK3oFGtRHaRIH5geHtgkQjYtCzJaKIiXlsW5xjPMaWXrHNxSfxkUezREIPgrefscjskziZD4x347hQ4=&Key-Pair-Id=APKAIUO27P366FGALUMQ",
+      "7":"http://d1b14unh5d6w7g.cloudfront.net/0596009208.01.S007.LXXXXXXX.jpg?Expires=1421770620&Signature=ANi/f6gm9zIYboOd1vwzPzbrG15r7wOMjiQG7LslW+cri9vYUQ+zFR+59X6UP9sXE1t3WK1PzY7MsrMLt3H7Ah1ZS5Skv8YrZaZ8Fl9SO/6kDgtqioWcFdq0cjRdhYV2ZVEbRLkT/WaBooHqr9PfEQzPFHspKIugJi/zGT8MWhc=&Key-Pair-Id=APKAIUO27P366FGALUMQ",
+      "10":"http://d1b14unh5d6w7g.cloudfront.net/0596009208.01.S00A.LXXXXXXX.jpg?Expires=1421770620&Signature=aMsxOgJVwEflDyLDrp8RlWmwgJck272wPcoiBjwsBJVspFE6PcThQhCmGI4xsKcPIMmTuMmA/tcnLKmE3jD43/XBtRA2ND2qIWPH0/6ROwZYx8eURz1aQ0QKJZmsjcQTQQBv3yLdLCVhkd08TWgfuCDL1llORtug6zCghjP0WIs=&Key-Pair-Id=APKAIUO27P366FGALUMQ"
+   },
+   "usedAndNewLowestPrice":23.5,
+   "zoomable":true,
+   "ASIN":"0596009208",
+   "oneClick":false,
+   "numPages":722,
+   "litbPages":[
+      1,
+      7,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      710,
+      711,
+      712,
+      713,
+      714,
+      715,
+      716,
+      717,
+      718,
+      719,
+      720,
+      721,
+      722
+   ],
+   "searchable":true,
+   "fastTrack":"<span><span id=\"fastTrackMessage0596009208142168422112635\">\n  Want it <b>tomorrow, Jan. 20</b>?&nbsp;Order within <span id='ftCountdown0596009208142168422112635' style='color:#009900'></span> and choose <b>One-Day Shipping</b>.\n  \n    \n\n\n\n\n\n\n<script language=\"Javascript1.2\" type=\"text/javascript\">\n<!--\n\nfunction ftCountdownTimer() {\n    this.currentDisplayMin;\n    this.initSecondsLeftToOrder;\n\n    \n\n\n\n\nfunction getTimeRemainingString( hours, minutes ) \n{\n  var hourString   =  ( hours == 1 ? \"hr\" : \"hrs\" );\n  var minuteString =  ( minutes  == 1 ? \"min\" : \"mins\" );\n\n    if (hours == 0) {\n      return minutes + \" \" + minuteString;\n    }\n    if (minutes == 0) {\n      return hours + \" \" + hourString;\n    }\n  return hours + \" \" + hourString + \" \"  + minutes + \" \" + minuteString;\n  return hours + \" \" + hourString + \"  \" + minutes + \" \" + minuteString;\n}\n\n\n\n\n    this.init = function(secondsLeftToOrder, countdownElementID)\n    {\n      var FT_currentTime = new Date();\n      var FT_currentHours = FT_currentTime.getHours();\n      var FT_currentMins = FT_currentTime.getMinutes();\n      var FT_currentSecs = FT_currentTime.getSeconds();\n      this.initSecondsLeftToOrder = FT_currentHours * 3600 + FT_currentMins * 60 + FT_currentSecs;\n      var FT_secondsFromCat = secondsLeftToOrder;\n\n      this.initSecondsLeftToOrder += FT_secondsFromCat;\n      this.refresh(countdownElementID);\n    }\n\n    this.refresh = function(countdownElementID)\n    {\n      var FT_newCurrentTime = new Date();\n      var FT_actualHours = FT_newCurrentTime.getHours();\n      var FT_actualMins = FT_newCurrentTime.getMinutes();\n      var FT_actualSecs = FT_newCurrentTime.getSeconds();\n      FT_actualSeconds = FT_actualHours * 3600 + FT_actualMins * 60 + FT_actualSecs;\n\n      this.displayCountdown(countdownElementID);\n    }\n\n    this.displayCountdown = function(countdownElementID)\n    {\n      if (!document.layers && !document.all && !document.getElementById) {\n        return;\n      }\n\n      var FT_remainSeconds = this.initSecondsLeftToOrder - FT_actualSeconds;\n\n      if (FT_remainSeconds < 1) {\n        return;  \n      }\n\t  \n      var FT_secondsPerDay = 24 * 60 * 60;\n      var FT_daysLong = FT_remainSeconds / FT_secondsPerDay;\n      var FT_days = Math.floor(FT_daysLong);\n      var FT_hoursLong = (FT_daysLong - FT_days) * 24;\n      var FT_hours = Math.floor(FT_hoursLong);\n      var FT_minsLong = (FT_hoursLong - FT_hours) * 60;\n      var FT_mins = Math.floor(FT_minsLong);\n      var FT_secsLong = (FT_minsLong - FT_mins) * 60;\n      var FT_secs = Math.floor(FT_secsLong);\n\n      if (FT_days > 0) {\n        FT_hours = (FT_days * 24) + FT_hours;\n      }\n\n      window.setTimeout('ftCountdown_' + countdownElementID + '.refresh(\"' + countdownElementID + '\")', 1000);\n\n      var ftCountdown = getTimeRemainingString( FT_hours, FT_mins );\n\n      var countdownElement = document.getElementById(countdownElementID);\n      if (countdownElement) {\n        if (this.currentDisplayMin != FT_mins || countdownElement.innerHTML == \"\" ) {\n          countdownElement.innerHTML = ftCountdown;\n          this.currentDisplayMin = FT_mins;\n        }\n      }\n    }\n\n}\n\n//-->\n</script>\n\n\n<script language=\"Javascript1.2\" type=\"text/javascript\">\n<!--\n    var ftCountdown_ftCountdown0596009208142168422112635 = new ftCountdownTimer();\n    ftCountdown_ftCountdown0596009208142168422112635.init(10679, 'ftCountdown0596009208142168422112635');\n//-->\n</script>\n\n\n  </span></span>",
+   "hasKindleEdition":false,
+   "jumboImageUrls":{
+      "1":"http://d1b14unh5d6w7g.cloudfront.net/0596009208.01.S001.JUMBOXXX.jpg?Expires=1421770621&Signature=Re66eJfbcWmAdnAzwqFI2ML4D4oOyBUjdRReBjmYcCHTKAgSVEJBHkCS87OTdlGBp6pK6vMfCmhRuOljpmuBl1srjxjMKP82Fxtshde2qsXspHwIKcpALesrMcxYI4lJM/yjpxMsreDc8pCh0OytFxFLLjEkNWSYQ3aqMPM7v0g=&Key-Pair-Id=APKAIUO27P366FGALUMQ",
+      "34":"http://d1b14unh5d6w7g.cloudfront.net/0596009208.01.S00Y.JUMBOXXX.jpg?Expires=1421770621&Signature=aX455HzQDJ2RJkqsfHq0YmQEnRIc8fBjjAaFrrSzT+HaxPhQc64TftZH/IpAY5+V1sn/CPZboNHNOqG6CuEgUHUJbhUv79ExNH6BmxQbjWS/gAglIWzHTsec9raXfPdMjfXjvhIlQBmrZkEfATLj+YvXblO3AlhTxmLTbDaji84=&Key-Pair-Id=APKAIUO27P366FGALUMQ",
+      "710":"http://d1b14unh5d6w7g.cloudfront.net/0596009208.01.S0JQ.JUMBOXXX.jpg?Expires=1421770621&Signature=C0PoIyCGQ+ZEZGajEkgBj48xpXI5FcnqwqJqrmhdrVXGCwdf6wm2RAQSepzfQFfYtYCLRYwaxqVpSggm8NWTN1ZwZyw8ZfVzUDYT/ogN9af0LfTGbuZFWboBQcJKCGH31UmkThrXokPqOK65U+qWPeUQwfiOyeB91+qqTUVkDmA=&Key-Pair-Id=APKAIUO27P366FGALUMQ",
+      "722":"http://d1b14unh5d6w7g.cloudfront.net/0596009208.01.S0K2.JUMBOXXX.jpg?Expires=1421770621&Signature=HHCGEJZr9Qx8CKHVAndwE1UqAvLhmyY0aUFeArfXFR8nF6ymalXwZcW9oIHnyc5Qk/bTf03xyN06S19EVKF7X+FGqff62rMSxPSje3TD+l0lNE2upXfxq4PY6rWIlWm99jhu8sw+ObKvlaVm0nxijY1eGz/bvwFjhp+iHOIHaGw=&Key-Pair-Id=APKAIUO27P366FGALUMQ",
+      "7":"http://d1b14unh5d6w7g.cloudfront.net/0596009208.01.S007.JUMBOXXX.jpg?Expires=1421770621&Signature=T/I82QxBDyZr2rMDsBbf65EK1K4YMihQxppPkCWPIZ2xXabxfCY31L1XjhVI9CxRUFrhUHG6SeD1hWz+OwWumO1ttkyr7Q5tTJFgUElWkjxpYFxxGr7IxEtSR/qkxw5iHtaYvJ3U+VadjHADDijxXOj/vEjWzovMih1n6IgiBOM=&Key-Pair-Id=APKAIUO27P366FGALUMQ",
+      "10":"http://d1b14unh5d6w7g.cloudfront.net/0596009208.01.S00A.JUMBOXXX.jpg?Expires=1421770621&Signature=VVMToLf5E+/RwIt9RVlYkf4RWPvZ5YJ0I+PB36GEt7xkFJFOr2rWqyWTZeWOGeC7qmAHUVQABkM0pBxvXQUQXnNhApuNJ/BOHCUtqwVEORkgWL0RY0brKA9TVwSsCEo8uff7mGgDUezmH3RoGMqFk47RHuWqFHQhQ8CCzrdWbfg=&Key-Pair-Id=APKAIUO27P366FGALUMQ"
+   },
+   "isFPS":"1",
+   "kcpAppWidget":{
+      "fDocLink":"/gp/feature.html/ref=dig_arl_box?ie=UTF8&docId=1000493771"
+   },
+   "usedAndNewCount":"111"
+}

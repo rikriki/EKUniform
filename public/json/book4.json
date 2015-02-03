@@ -1,0 +1,123 @@
+{
+   "pt":"208",
+   "buyingAsin":"1491900865",
+   "original_book_type":"print",
+   "binding":"Paperback",
+   "authorNameList":[
+      "Robert Liguori",
+      "Patricia Liguori"
+   ],
+   "intlField":"",
+   "sessionId":"189-8296408-1523331",
+   "reviewStarsImageTag":"<span class=\"crAvgStars\" style=\"white-space:no-wrap;\"><span class=\"asinReviewsSummary\" name=\"1491900865\" ref=\"rdr_ext_cr_cm_cr_acr_pop_\" >\n             <a href=\"http://www.amazon.com/Java-Pocket-Guide-Robert-Liguori/product-reviews/1491900865/ref=rdr_ext_cr_cm_cr_acr_img?ie=UTF8&showViewpoints=1\" ><img src=\"http://g-ecx.images-amazon.com/images/G/01/x-locale/common/customer-reviews/ratings/stars-4-0._V192251205_.gif\" width=\"55\" alt=\"4.0 out of 5 stars\" align=\"absbottom\" title=\"4.0 out of 5 stars\" height=\"12\" border=\"0\" /></a>&nbsp;</span>(<a href=\"http://www.amazon.com/Java-Pocket-Guide-Robert-Liguori/product-reviews/1491900865/ref=rdr_ext_cr_cm_cr_acr_txt?ie=UTF8&showViewpoints=1\" >4</a>)</span>",
+   "sampleSearches":null,
+   "pageLabelSet":"(2,r,1),(18,a,1)",
+   "xPages":"5,17,19,37,59,75,85,99,105,119,141,151,165,173,181,203,205,217",
+   "t1Tokens":{
+
+   },
+   "requestId":"1E27YKHMRBWYTPSRZMMH",
+   "st":"20",
+   "buyingPrice":11.95,
+   "level":0,
+   "bookmarks":[
+      [
+         "Front Cover",
+         1,
+         1
+      ],
+      [
+         "Copyright",
+         3,
+         1
+      ],
+      [
+         "Table of Contents",
+         6,
+         6
+      ],
+      [
+         "First Pages",
+         20,
+         10
+      ],
+      [
+         "Index",
+         228,
+         13
+      ],
+      [
+         "Back Cover",
+         242,
+         1
+      ]
+   ],
+   "type":"print",
+   "title":"Java 8 Pocket Guide",
+   "thumbnailImage":"http://ecx.images-amazon.com/images/I/51Gx9yhIRxL._SL75_PIsitb-sticker-arrow-st,TopRight,8,-14_OU01_.jpg",
+   "kindleAsin":"B00JK0BA8C",
+   "orientation":"lrtb",
+   "largeImageUrls":{
+      "6":"http://d1b14unh5d6w7g.cloudfront.net/1491900865.01.S006.LXXXXXXX.jpg?Expires=1421770685&Signature=X4JbS6785mw5Cp5f1WYR8dYaAU4dUyMxgsP0mNTAHjqno2oklL+bTm1xTfEQ7IpFx41AEOk12dGoU5jvPZHTmHB4BNH6wakbcESWoqXlM6Ysdt8RjpNICh65WbTyN6HuNkYIIrU1cp4zvN8hNJpBGFYVCLSW44d3zD+Q66d8gWc=&Key-Pair-Id=APKAIUO27P366FGALUMQ",
+      "1":"http://d1b14unh5d6w7g.cloudfront.net/1491900865.01.S001.LXXXXXXX.jpg?Expires=1421770685&Signature=DwhfnfODFekpw+4UfNrxN8sZLoD341hTGZA5FF8c3UccMopTk0ZdhKIQtRQa8LoIgNp225z8A01+jMBbn0BiFSJXW6zQbtdj+QhVaXEwS1sStAlgGSTN8X2uL+HREWxjFguNELOJxfS6QblTFDz5L5IkqUHW9PuPswb0JAiByiE=&Key-Pair-Id=APKAIUO27P366FGALUMQ",
+      "228":"http://d1b14unh5d6w7g.cloudfront.net/1491900865.01.S06C.LXXXXXXX.jpg?Expires=1421770685&Signature=QvWC7dR35HiUL5sr8DrXjneeMh939DCH0MnWcdYnbMLBQzbpffvBCQpdqYKEwnLiouOoRlt15C2XiioWU6yDd9wEefIN3/f5la9HVdh0egnQeTZe1MlbcROCiUarxQoBHuWMB5rWjpRQ41/2BJHYRGWxWLEKSO/dAFQHOIW/eBg=&Key-Pair-Id=APKAIUO27P366FGALUMQ",
+      "3":"http://d1b14unh5d6w7g.cloudfront.net/1491900865.01.S003.LXXXXXXX.jpg?Expires=1421770685&Signature=EcQ+MhbMxgpvTZUtYVP+q1Lc3tebp7NeHCxB9mdxl8kMcDf8MiD19e0wbDOqM1oXkRJ57U5G+sdgoKrzB6DpOPGCu/IfGvRZTs27AiZ5jSjI5ItESJ+q/q4EU07WP+OS/dHS3N2SPSgzMNIQ1kMez1paj6QJ6mVzm8Z/DOnMtWQ=&Key-Pair-Id=APKAIUO27P366FGALUMQ",
+      "242":"http://d1b14unh5d6w7g.cloudfront.net/1491900865.01.S06Q.LXXXXXXX.jpg?Expires=1421770685&Signature=ByEpfRAZJetQSZHzjoct2RQyX1/kLHE8q5SZvYB5SVHaMBelkkWXZ5hbCOUpyPFvSl6KZCAgf5wfPuPbEvryeCNKS8PAR82REhNyEMDhfdbqq3OjA49RvYJfnxrbSEKq0h04BxNyFfOa/qKFM3AvIqLMPsYSYPj1YK+MfM6fbYY=&Key-Pair-Id=APKAIUO27P366FGALUMQ",
+      "20":"http://d1b14unh5d6w7g.cloudfront.net/1491900865.01.S00K.LXXXXXXX.jpg?Expires=1421770685&Signature=R0ajUc8N+5mP4EzgHqcZrfB/Bk1qImfr65nlwyuLy8PnepSS4F/1TEM4SLzQ7A6ia68zlYzImmYvJdRCf/7hWea1KOE1bQr3OXmVQAGp3VaJcpfsfCn+9i/UqoNnAv6ty6eyGKolf545x+ZcoxEO/oYt/+A41YTzz4ZN+lKGezI=&Key-Pair-Id=APKAIUO27P366FGALUMQ"
+   },
+   "usedAndNewLowestPrice":5.99,
+   "zoomable":true,
+   "ASIN":"1491900865",
+   "oneClick":false,
+   "numPages":242,
+   "litbPages":[
+      1,
+      3,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      228,
+      229,
+      230,
+      231,
+      232,
+      233,
+      234,
+      235,
+      236,
+      237,
+      238,
+      239,
+      240,
+      242
+   ],
+   "searchable":true,
+   "fastTrack":"<span><span id=\"fastTrackMessage1491900865142168428580139\">\n  Want it <b>tomorrow, Jan. 20</b>?&nbsp;Order within <span id='ftCountdown1491900865142168428580139' style='color:#009900'></span> and choose <b>One-Day Shipping</b>.\n  \n    \n\n\n\n\n\n\n<script language=\"Javascript1.2\" type=\"text/javascript\">\n<!--\n\nfunction ftCountdownTimer() {\n    this.currentDisplayMin;\n    this.initSecondsLeftToOrder;\n\n    \n\n\n\n\nfunction getTimeRemainingString( hours, minutes ) \n{\n  var hourString   =  ( hours == 1 ? \"hr\" : \"hrs\" );\n  var minuteString =  ( minutes  == 1 ? \"min\" : \"mins\" );\n\n    if (hours == 0) {\n      return minutes + \" \" + minuteString;\n    }\n    if (minutes == 0) {\n      return hours + \" \" + hourString;\n    }\n  return hours + \" \" + hourString + \" \"  + minutes + \" \" + minuteString;\n  return hours + \" \" + hourString + \"  \" + minutes + \" \" + minuteString;\n}\n\n\n\n\n    this.init = function(secondsLeftToOrder, countdownElementID)\n    {\n      var FT_currentTime = new Date();\n      var FT_currentHours = FT_currentTime.getHours();\n      var FT_currentMins = FT_currentTime.getMinutes();\n      var FT_currentSecs = FT_currentTime.getSeconds();\n      this.initSecondsLeftToOrder = FT_currentHours * 3600 + FT_currentMins * 60 + FT_currentSecs;\n      var FT_secondsFromCat = secondsLeftToOrder;\n\n      this.initSecondsLeftToOrder += FT_secondsFromCat;\n      this.refresh(countdownElementID);\n    }\n\n    this.refresh = function(countdownElementID)\n    {\n      var FT_newCurrentTime = new Date();\n      var FT_actualHours = FT_newCurrentTime.getHours();\n      var FT_actualMins = FT_newCurrentTime.getMinutes();\n      var FT_actualSecs = FT_newCurrentTime.getSeconds();\n      FT_actualSeconds = FT_actualHours * 3600 + FT_actualMins * 60 + FT_actualSecs;\n\n      this.displayCountdown(countdownElementID);\n    }\n\n    this.displayCountdown = function(countdownElementID)\n    {\n      if (!document.layers && !document.all && !document.getElementById) {\n        return;\n      }\n\n      var FT_remainSeconds = this.initSecondsLeftToOrder - FT_actualSeconds;\n\n      if (FT_remainSeconds < 1) {\n        return;  \n      }\n\t  \n      var FT_secondsPerDay = 24 * 60 * 60;\n      var FT_daysLong = FT_remainSeconds / FT_secondsPerDay;\n      var FT_days = Math.floor(FT_daysLong);\n      var FT_hoursLong = (FT_daysLong - FT_days) * 24;\n      var FT_hours = Math.floor(FT_hoursLong);\n      var FT_minsLong = (FT_hoursLong - FT_hours) * 60;\n      var FT_mins = Math.floor(FT_minsLong);\n      var FT_secsLong = (FT_minsLong - FT_mins) * 60;\n      var FT_secs = Math.floor(FT_secsLong);\n\n      if (FT_days > 0) {\n        FT_hours = (FT_days * 24) + FT_hours;\n      }\n\n      window.setTimeout('ftCountdown_' + countdownElementID + '.refresh(\"' + countdownElementID + '\")', 1000);\n\n      var ftCountdown = getTimeRemainingString( FT_hours, FT_mins );\n\n      var countdownElement = document.getElementById(countdownElementID);\n      if (countdownElement) {\n        if (this.currentDisplayMin != FT_mins || countdownElement.innerHTML == \"\" ) {\n          countdownElement.innerHTML = ftCountdown;\n          this.currentDisplayMin = FT_mins;\n        }\n      }\n    }\n\n}\n\n//-->\n</script>\n\n\n<script language=\"Javascript1.2\" type=\"text/javascript\">\n<!--\n    var ftCountdown_ftCountdown1491900865142168428580139 = new ftCountdownTimer();\n    ftCountdown_ftCountdown1491900865142168428580139.init(23215, 'ftCountdown1491900865142168428580139');\n//-->\n</script>\n\n\n  </span></span>",
+   "hasKindleEdition":false,
+   "jumboImageUrls":{
+      "6":"http://d1b14unh5d6w7g.cloudfront.net/1491900865.01.S006.JUMBOXXX.jpg?Expires=1421770685&Signature=WRDeiWpwhCLbQxrefMv5npd0CVefawVEj6/F58glRe3ixHx4rbhpB9AeGqqwtksoJYviVgQxzEKiANLYdXSHlJ2OoGl2KH7cdeE3Zqyq20wDgX0UtfoSKdH3Pfxk+3ZZbr42W9ZJIfO/cw8OzQr+89G9ZTWvYysmWIVNxUDamdM=&Key-Pair-Id=APKAIUO27P366FGALUMQ",
+      "1":"http://d1b14unh5d6w7g.cloudfront.net/1491900865.01.S001.JUMBOXXX.jpg?Expires=1421770685&Signature=AtQ/dhJ8hWt3h0LqtR9SOfaZS7vC2b2bcDiwX+DqJY8/7YVMVluCMP05C6aeLKLJ/M+3PZA9KHo8EOuWqRCZMG9A02C4yFzVJBLbhkeKgJBmdDzKNTyUzJ1rH+EYZVbskA2SF2HOCHdOhsmUz45rCqHsHogIlQVF/whf6wffiYQ=&Key-Pair-Id=APKAIUO27P366FGALUMQ",
+      "228":"http://d1b14unh5d6w7g.cloudfront.net/1491900865.01.S06C.JUMBOXXX.jpg?Expires=1421770685&Signature=CVeLZ8p6dlXa61qjdUxVlrgZPkHP5KaldV8OF9ZmzXXd6kbku4UTIbI3ue0no8s7aTH7ty+IEh1S4Yd6ozG+J9I2KsALs7eltQQIRMzjg9OC7Z/V05mjLd+2f4OkaOpajJn4R8phuya+EudrgJtL2WJNi70wb74BWr0DCptUDeU=&Key-Pair-Id=APKAIUO27P366FGALUMQ",
+      "3":"http://d1b14unh5d6w7g.cloudfront.net/1491900865.01.S003.JUMBOXXX.jpg?Expires=1421770685&Signature=Fo0386NpTevPhpp7LqxfCExrSHR2yN45XfcKHQ8SM06q2G0PvuBEdX3Ols3IXzLLhD8sxHpvc2LvsIjDkSEH4BK0n+Ny9a9HRRDAe0bw0oHVxDgxRYswPYq2FcCZLuSBLW9GELm8Uch2+A/lEqyoTMD3LBEmW/B2DQb/qWTDbGc=&Key-Pair-Id=APKAIUO27P366FGALUMQ",
+      "242":"http://d1b14unh5d6w7g.cloudfront.net/1491900865.01.S06Q.JUMBOXXX.jpg?Expires=1421770685&Signature=F+qlMN3Gj4psaT+BsfWNzSHg5nUfF2SqCznluKmmt+IMeRko+vOsJ/UH7lf+Pr2j3lTSY8rPs/Ko5bh8uQr/8HfhE0nBQFd0CCMY3AhGVnNxE4V2ELYreyrgsTYZ8fdB4guP1yKMv8KDXYh2nUSLTEJc/w3dSpDkL0zbiR/HlpQ=&Key-Pair-Id=APKAIUO27P366FGALUMQ",
+      "20":"http://d1b14unh5d6w7g.cloudfront.net/1491900865.01.S00K.JUMBOXXX.jpg?Expires=1421770685&Signature=Ad3b37RCJFk2xyq5E6SiZZ3ExbmoA1R8Mjy5fRIc7EHAo4yHqJclvO/ZTWmODfwIAs3HWOC3jMwJEcOJzLcnx1cTzvuOGhNpXKDT2I8v8hXc/PCWchbITLSlIQFZw4ghh64jzasHNkkKej5+49zl4RvttZzJrrOJuWvEl/SdRrk=&Key-Pair-Id=APKAIUO27P366FGALUMQ"
+   },
+   "isFPS":"1",
+   "kcpAppWidget":{
+      "fDocLink":"/gp/feature.html/ref=dig_arl_box?ie=UTF8&docId=1000493771"
+   },
+   "usedAndNewCount":"83"
+}

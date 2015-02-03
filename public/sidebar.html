@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js" data-ng-app="inventoryApp">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<meta name="apple-mobile-web-app-capable" content="yes"> 
+		<title>Sidebar Transitions</title>
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+   		<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css">
+   		<link rel="stylesheet" type="text/css" href="css/icons.css" />
+   		<link rel="stylesheet" href="css/ngDialog.css">
+   		<link rel="stylesheet" href="css/ngDialog-theme-default.css">
+		<link rel="stylesheet" href="css/ngDialog-theme-plain.css">
+
+   		<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular.js"></script>
+    	
+   		<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.13/angular-animate.js"></script>
+   		<script type="text/javascript" src="js/lib/angular-route.min.js"></script>
+   		<script type="text/javascript" src="js/lib/angular-resource.min.js"></script>
+    	<script type="text/javascript" src="js/lib/angular-route.min.js"></script>
+		
+		<script type="text/javascript" src="js/lib/jquery.min.js"></script>
+    	<script type="text/javascript" src="js/lib/bootstrap.min.js"></script>
+    	<script src="js/lib/modernizr.custom.js"></script>
+    	
+    	<script type="text/javascript" src="js/lib/ngDialog.js"></script>
+    	
+    	<script type="text/javascript" src="js/controller/test-controller.js"></script>
+    	<script type="text/javascript" src="js/controller/test-service.js"></script>
+    	<script type="text/javascript" src="js/controller/test-router.js"></script>
+    	
+
+
+    	
+		
+	</head>
+	<body data-ng-controller="homeController" >
+
+	
+		
+	</div>
+		<div id="st-container" class="st-container" ng-class="{'st-menu-open st-effect-3':open}">
+			<!-- content push wrapper -->
+			<div class="st-pusher">
+				<!-- 	
+					example menus 
+					these menus will be under the push wrapper
+				-->
+				<nav class="st-menu st-effect-3" id="menu-3">
+					<h2 id="employee-designation"> Senior Cabin Crew</h2>
+					<div id="profile">
+						<img src="images/profile_pic.jpg" />
+						<div class="profile_details">
+							<span id="employee-number">s374654</span>
+							<span id="employee-name">Tom Jones</span>
+						</div>
+					</div>
+					<ul id="menu-links">
+						<li><a class="icon icon-shop" href="#" ng-click="closeMenu()">Home</a></li>
+						<li><a class="icon icon-megaphone" href="#" ng-click="closeMenu()" >Notifications</a></li>
+						<li><a class="icon icon-banknote" href="#">Transaction History</a></li>
+						<li><a class="icon icon-clock" href="#">UDC Collection Timings</a></li>
+						<li><a class="icon icon-lock" href="#">Logout</a></li>
+					</ul>
+				</nav>
+
+				
+
+				<div class="st-content"><!-- this is the wrapper for the content -->
+					<div class="st-content-inner"><!-- extra div for emulating position:fixed of the menu -->
+						<!-- Top Navigation -->
+						<div class="navbar navbar-inverse" role="navigation">
+						   
+						        <div class="navbar-header">
+						        	<div id="st-trigger-effects" class="column">
+						            <button type="button" data-ng-click="menuOpen('st-effect-3')" class="navbar-toggle" data-toggle="collapse" data-effect="st-effect-3" data-target=".navbar-collapse">
+						                <span class="icon-bar"></span>
+						                <span class="icon-bar"></span>
+						                <span class="icon-bar"></span>
+						            </button>
+						            </div>
+						            <a class="navbar-brand" href="#">My Uniform</a>
+						        </div>
+
+						       
+						        <!--/.navbar-collapse -->
+						    
+						</div><!-- /Top Navigation -->
+						<div data-ng-view="">
+						<!-- main content start here -->
+						</div>
+					</div><!-- /st-content-inner -->
+				</div><!-- /st-content -->
+			</div><!-- /st-pusher -->
+		</div><!-- /st-container -->
+		<script type="text/ng-template" id="firstDialogId">
+		<div class="ngdialog-message">
+			<h3>ngDialog template</h3>
+			<p ng-show="theme">Test content for <code>{{theme}}</code></p>
+			<p ng-show="ngDialogData.foo">Data passed through: <code>{{ngDialogData.foo}}</code></p>
+			<p ng-show="dialogModel.message">Scope passed through: <code>{{dialogModel.message}}</code></p>
+		</div>
+		<div class="ngdialog-buttons">
+			<button type="button" class="ngdialog-button ngdialog-button-secondary"
+				ng-dialog="secondDialogId"
+				ng-dialog-class="ngdialog-theme-default"
+				ng-dialog-controller="SecondModalCtrl"
+				ng-dialog-close-previous>Close and open</button>
+			<button type="button" class="ngdialog-button ngdialog-button-primary" ng-click="openSecond()">Open next</button>
+		</div>
+		</script>
+		<script src="js/lib/classie.js"></script>
+		<script src="js/lib/sidebarEffects.js"></script>
+	</body>
+</html>

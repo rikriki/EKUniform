@@ -1,0 +1,49 @@
+            <div id="st-inventory" class="main clearfix" ng-class="{'inventory-open':inventoryStatus}">
+              
+              <div id="inventory">
+                <a href="#" class="iconInvetoryBig iconInvetory-arrow" ng-click="openInventory(inventory.itemName)" data-ng-repeat="inventory in inventories">
+                  {{inventory.itemName}}
+                  <div>
+                    <span ng-if="inventory.red.length>0" class="red iconInvetory icon-trash"> {{inventory.red}}</span>
+                    <span ng-if="inventory.amber.length>0" class="amber iconInvetory icon-bubble"> {{inventory.amber}}</span></div>
+                </a>
+
+              
+              </div>
+              <div id="item_selected">
+                <a href="#" id="close" ng-click="closeInventory()">close</a>
+                <div id="itemName">
+                <div class="imgHolder"></div>
+                <div class="imgName">
+                  {{inventory.name}}
+                </div>
+                </div>
+                <p class="itemDate">
+                  Date Issued: 20-Feb 2011
+                  Valid until: 20-Feb 2011
+                </p>
+
+                <p class="itemDescription">
+                  Lorem ipsum dolor est generetum est salum Lorem ipsum dolor est generetum est salum
+                </p>
+
+                <div id="itemDropdown">
+                  <div>Add this item to cart</div>
+                  <div class="dropdown">
+                  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="false">
+                    1
+                    <span class="caret"></span>
+                  </button>
+                  <ul class="dropdown-menu numbers" role="menu" aria-labelledby="dropdownMenu1">
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">1</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">2</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">3</a></li>
+                  </ul>
+                </div>
+                  <div><button class="reserveNow icon icon-shop"></button></div>
+                </div>  
+              </div>
+            </div><!-- /main -->
+    
+
+
