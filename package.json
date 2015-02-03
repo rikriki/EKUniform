@@ -1,7 +1,7 @@
 {
   "name": "y",
   "version": "0.0.1",
-  "description": "movie stub sample site",
+  "description": "EK uniform",
   "main": "y",
   "scripts": {
     "test": "echo \"no test command\""
@@ -14,7 +14,7 @@
      "morgan": "~1.2.2",
     "body-parser": "~1.0.0",
     "method-override": "~1.0.0",
-    "serve-favicon":"~2.0.1",
+    "serve-favicon":"~2.0.1"
    
   }
 }

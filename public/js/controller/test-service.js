@@ -16,7 +16,68 @@ inventoryApp.factory('inventoryFactory', function () {
         "itemName":"Shoes EK (M) Conker Red Slip-on 06H",
         "red":"Due to replacement",
         "amber":"Out of Stock"
-     }]
+     },
+     {
+        "itemName":"Shoes EK (M) Conker Brown Slip-on 06H",
+        "red":"Due to replacement",
+        "amber":"Out of Stock"
+     },
+     {
+        "itemName":"Shoes Slip-on 06H",
+         "red":"Due to replacement" 
+        
+     },
+     {
+        "itemName":"Shoes EK (M) Conker Red Slip-on 06H",
+        "red":"Due to replacement",
+        "amber":"Out of Stock"
+     },
+     {
+        "itemName":"Shoes EK (M) Conker Brown Slip-on 06H",
+        "red":"Due to replacement",
+        "amber":"Out of Stock"
+     },
+     {
+        "itemName":"Shoes Slip-on 06H",
+         "red":"Due to replacement" 
+        
+     },
+     {
+        "itemName":"Shoes EK (M) Conker Red Slip-on 06H",
+        "red":"Due to replacement",
+        "amber":"Out of Stock"
+     },
+     {
+        "itemName":"Shoes EK (M) Conker Brown Slip-on 06H",
+        "red":"Due to replacement",
+        "amber":"Out of Stock"
+     },
+     {
+        "itemName":"Shoes Slip-on 06H",
+         "red":"Due to replacement" 
+        
+     },
+     {
+        "itemName":"Shoes EK (M) Conker Red Slip-on 06H",
+        "red":"Due to replacement",
+        "amber":"Out of Stock"
+     },
+     {
+        "itemName":"Shoes EK (M) Conker Brown Slip-on 06H",
+        "red":"Due to replacement",
+        "amber":"Out of Stock"
+     },
+     {
+        "itemName":"Shoes Slip-on 06H",
+         "red":"Due to replacement" 
+        
+     },
+     {
+        "itemName":"Shoes EK (M) Conker Red Slip-on 06H",
+        "red":"Due to replacement",
+        "amber":"Out of Stock"
+     }
+     ]
     }
     return inventory;
 });

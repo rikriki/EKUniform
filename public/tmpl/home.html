@@ -1,7 +1,9 @@
-            <div id="st-inventory" class="main clearfix" ng-class="{'inventory-open':inventoryStatus}">
-              
+            
+           <div>
+            <div id="st-inventory" class="main clearfix" ng-class="{'inventory-open':inventoryStatus}" >
+               
               <div id="inventory">
-                <a href="#" class="iconInvetoryBig iconInvetory-arrow" ng-click="openInventory(inventory.itemName)" data-ng-repeat="inventory in inventories">
+                <a href="" class="iconInvetoryBig iconInvetory-arrow" ng-click="openInventory(inventory.itemName)" data-ng-repeat="inventory in inventories">
                   {{inventory.itemName}}
                   <div>
                     <span ng-if="inventory.red.length>0" class="red iconInvetory icon-trash"> {{inventory.red}}</span>
@@ -44,6 +46,6 @@
                 </div>  
               </div>
             </div><!-- /main -->
-    
+          </div>
 
 

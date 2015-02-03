@@ -3,46 +3,44 @@ window.inventoryApp = angular.module('inventoryApp', ['ngResource','ngDialog','n
 
 
 
-
-
-inventoryApp.controller("homeController", function ($scope,$location,inventoryFactory,ngDialog) {
-
+inventoryApp.controller("uniformController",function($scope,inventoryFactory,ngDialog){
     $scope.inventories = inventoryFactory.items;
-    
-    
-    //$scope.inventories2 = inventoryFactory2.query();
-    //console.log($scope.inventories2)
-    
-    $scope.pageClass="page-home";
     $scope.inventory={};
-    $scope.menuOpen = function(){
-         if($scope.open){
-            console.log("true");
-            $scope.open=null ;
-        }else{
-            $scope.open=true;
-            
-        }
-
-    }
-    $scope.closeMenu = function(){
-        if($scope.open){
-            console.log("true");
-            $scope.open=null ;
-        }
-        
-        
-    }
-    $scope.openInventory = function(data){
-        $scope.inventoryStatus=true;
-        $scope.inventory.name = data
+    $scope.openInventory=function(data){
+        $scope.inventoryStatus=true; 
+        $scope.inventory.name = data;
     }
     $scope.closeInventory = function(){
         $scope.inventoryStatus=null;
-        ngDialog.open({template:'firstDialogId',
-                       data:{riki:"yes"}
-                      })
+        
     }
+});
+
+inventoryApp.controller("homeController", function ($scope,ngDialog) {
+
+  
+    //$scope.inventories2 = inventoryFactory2.query();
+    //console.log($scope.inventories2)
+
+    $scope.pageClass="page-home";
+    $scope.inventory={};
+    $scope.open = null;
+
+    $scope.notifications=function(){
+        ngDialog.open({template:'firstDialogId',
+            data:{riki:"yes"}
+        });
+        $scope.toggleNav();
+    }
+    $scope.toggleNav=function(){
+        if($scope.open){
+            $scope.open=null ;
+
+        }else{
+            $scope.open=true ;
+        }
+    }
+    
 
    /*$http.get('data/movies.json')
     .then(function(res){

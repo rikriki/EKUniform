@@ -40,6 +40,8 @@
 	content: "\e039";
 }
 .icon:before {
+	margin-bottom: 3px;
+    margin-right: 3px;
 	font-family: 'linecons';
 	speak: none;
 	font-style: normal;
@@ -49,9 +51,6 @@
 	line-height: 1;
 	display: inline-block;
 	vertical-align: bottom;
-	margin-right: 0.8em;
-	margin-bottom: 0.2em;
-	font-size: 1.2em;
 	-webkit-font-smoothing: antialiased;
 }
 .icon-female:before {
