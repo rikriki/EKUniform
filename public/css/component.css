@@ -143,6 +143,9 @@ body,
 	transition: background 0.3s, box-shadow 0.3s;
 }
 
+.st-menu ul li a::before{
+	margin-right: 4px;
+}
 .st-menu ul li:first-child a {
 	box-shadow: inset 0 -1px #4c5564, inset 0 1px #4c5564;
 }
@@ -188,6 +191,9 @@ body,
     top: 0px;
 }
 
+
+
+/* Home.html CSS*/
 #inventory{
 	-webkit-transition: all 0.5s;
 	transition: all 0.5s;
@@ -208,8 +214,8 @@ body,
 	text-shadow: 0 0 1px rgba(255,255,255,0.1);
 	letter-spacing: 1px;
 	font-weight: 400;
-	-webkit-transition: background 0.3s, box-shadow 0.3s;
-	transition: background 0.3s, box-shadow 0.3s;
+	-webkit-transition: all 0.3s, box-shadow 0.3s;
+	transition: all 0.3s, box-shadow 0.3s;
 	position: relative;
 	background: #fefefe; /* Old browsers */
 	background: -moz-linear-gradient(top, #fefefe 0%, #dee0df 100%); /* FF3.6+ */
@@ -222,6 +228,13 @@ body,
 }
 #inventory>a{
 text-decoration: none;
+font-weight: bold;
+}
+#inventory>a.active{
+	background: #7fb1d2;
+    color: #ffffff;
+	
+	
 }
 #inventory >a> div{
 	font-size: 65%;
@@ -232,7 +245,11 @@ text-decoration: none;
 text-transform: uppercase;
 padding: 2px 4px;
 color: #fff;margin-right: 10px;
-}			
+
+}	
+#inventory >a> div > span::before{
+font-size: 1.3em!important;	
+}		
 .amber{
 	background-color: #ff9a02
 }
@@ -262,6 +279,7 @@ padding-top: 53px;
 		width: 66%!important;
 	}
 
+
 	.inventory-open #item_selected{
 		width: 350px!important;	
 		right:0px!important;
@@ -285,6 +303,21 @@ padding-top: 53px;
 	color: #333333;
 	font-size: 14px;
 	display: inline-table;
+}
+#itemName .imgHolder:before{
+	color: #fff;
+    display: inline-block;
+    font-family: "typicons";
+    font-size: 2.5em;
+    font-style: normal;
+    font-weight: normal;
+    left: 21px;
+    position: absolute;
+    text-align: center;
+    text-decoration: inherit;
+    text-rendering: optimizelegibility;
+    top: 19px;
+	content: '\e038';
 }
 .imgName{margin: auto;width:70%;}
 .imgHolder{
@@ -333,4 +366,31 @@ margin-right: 5px;
     margin-left: 8px;
     margin-right: 0;
     width: 20px;
+    font-size: 2.5em!important;
+
 }
+.uniform-title{
+	background-image: linear-gradient(to bottom, #3c3c3c 0%, #222 100%);
+	font-size: 1em;
+	color: #fff;
+	padding: 4px 0px 4px 55px;
+}
+.uniform-title span{
+	font-size: 1.5em
+}
+ 
+.uniform-title::before{
+	display: inline-block;
+    font-family: "typicons";
+    font-size: 3.5em;
+    font-style: normal;
+    font-weight: normal;
+    left: 16px;
+    position: absolute;
+    text-align: center;
+    text-decoration: inherit;
+    text-rendering: optimizelegibility;
+    top: 46px;
+	content: '\e12b';
+} 
+/* \HOME.html CSS*/

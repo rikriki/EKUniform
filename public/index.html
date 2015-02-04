@@ -9,7 +9,7 @@
 		<link rel="stylesheet" type="text/css" href="css/component.css" />
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
    		<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css">
-   		<link rel="stylesheet" type="text/css" href="css/icons.css" />
+   		<link rel="stylesheet" type="text/css" href="css/typicons.css" />
    		<link rel="stylesheet" href="css/ngDialog.css">
    		<link rel="stylesheet" href="css/ngDialog-theme-default.css">
 		<link rel="stylesheet" href="css/ngDialog-theme-plain.css">
@@ -58,11 +58,11 @@
 						</div>
 					</div>
 					<ul id="menu-links">
-						<li><a class="icon icon-shop" href="#" ng-click="toggleNav()">Home</a></li>
-						<li><a class="icon icon-megaphone" href="" ng-click="notifications()" >Notifications</a></li>
-						<li><a class="icon icon-banknote" href="#">Transaction History</a></li>
-						<li><a class="icon icon-clock" href="#">UDC Collection Timings</a></li>
-						<li><a class="icon icon-lock" href="#">Logout</a></li>
+						<li><a class="typcn typcn-home-outline" href="#" ng-click="toggleNav()">Home</a></li>
+						<li><a class="typcn typcn-bell" href="" ng-click="notifications()" >Notifications</a></li>
+						<li><a class="typcn typcn-info-outline" href="#">Transaction History</a></li>
+						<li><a class="typcn typcn-stopwatch" href="#">UDC Collection Timings</a></li>
+						<li><a class="typcn typcn-eject-outline" href="#">Logout</a></li>
 					</ul>
 				</nav>
 
@@ -74,14 +74,18 @@
 						<div class="navbar navbar-inverse" role="navigation">
 						   
 						        <div class="navbar-header">
-						        	<div id="st-trigger-effects" class="column">
-						            <button type="button" data-ng-click="toggleNav()" class="navbar-toggle" data-toggle="collapse" data-effect="st-effect-3" data-target=".navbar-collapse">
+						        	
+						            <button id="st-trigger-effects" type="button" data-ng-click="toggleNav()" class="navbar-toggle" data-toggle="collapse" data-effect="st-effect-3" data-target=".navbar-collapse">
 						                <span class="icon-bar"></span>
 						                <span class="icon-bar"></span>
 						                <span class="icon-bar"></span>
 						            </button>
-						            </div>
+						            
 						            <a class="navbar-brand" href="#">My Uniform</a>
+
+						            <button  type="button" data-ng-click="toggleNav()" class="navbar-cart typcn typcn-shopping-cart" data-toggle="collapse" data-effect="st-effect-3" data-target=".navbar-collapse">
+						                <span id="item">{{cartItems.length}}</span>
+						            </button>
 						        </div>
 
 						       

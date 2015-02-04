@@ -1,18 +1,17 @@
 window.inventoryApp = angular.module('inventoryApp', ['ngResource','ngDialog','ngRoute']);
 
 
-
-
 inventoryApp.controller("uniformController",function($scope,inventoryFactory,ngDialog){
     $scope.inventories = inventoryFactory.items;
     $scope.inventory={};
     $scope.openInventory=function(data){
         $scope.inventoryStatus=true; 
         $scope.inventory.name = data;
+        $scope.selectedItem=data; 
+        //$scope.addItems();
     }
     $scope.closeInventory = function(){
         $scope.inventoryStatus=null;
-        
     }
 });
 
@@ -23,9 +22,17 @@ inventoryApp.controller("homeController", function ($scope,ngDialog) {
     //console.log($scope.inventories2)
 
     $scope.pageClass="page-home";
-    $scope.inventory={};
-    $scope.open = null;
+    $scope.cartItems =[];
 
+    $scope.open = null;
+    $scope.addItems= function(item){
+        var newItem = {
+           name:item.name,
+           quantity:item.quantity 
+        }
+        $scope.cartItems.push(newItem);
+        console.log($scope.cartItems)
+    };
     $scope.notifications=function(){
         ngDialog.open({template:'firstDialogId',
             data:{riki:"yes"}
