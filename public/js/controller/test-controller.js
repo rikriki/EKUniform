@@ -2,6 +2,25 @@ window.inventoryApp = angular.module('inventoryApp', ['ngResource','ngDialog','n
 
 
 inventoryApp.controller("uniformController",function($scope,inventoryFactory,ngDialog){
+    $scope.statuses = [{
+        id: 1,
+        name: "Low"        
+    }, {
+        id: 2,
+        name: "Normal"        
+    }, {
+        id: 3,
+        name: "High"        
+    }, {
+        id: 4,
+        name: "Urgent"        
+    }, {
+        id: 5,
+        name: "Immediate"        
+    }];
+    
+
+
     $scope.inventories = inventoryFactory.items;
     $scope.inventory={};
     $scope.openInventory=function(data){
@@ -15,6 +34,52 @@ inventoryApp.controller("uniformController",function($scope,inventoryFactory,ngD
     }
 });
 
+inventoryApp.directive('bsDropdown', function ($compile) {
+    return {
+        restrict: 'E',
+        scope: {
+            items: '=dropdownData',
+            doSelect: '&selectVal',
+            selectedItem: '=preselectedItem'
+        },
+        link: function (scope, element, attrs) {
+            var html = '';
+            switch (attrs.menuType) {
+
+                case "button":
+                    html += '<div class="btn-group"><button class="btn  btn-default button-label ">Action</button><button class="btn  btn-default dropdown-toggle" data-toggle="dropdown"><span class="caret"></span></button>';
+                    break;
+                default:
+                    html += '<div class="dropdown"><a class="dropdown-toggle" role="button" data-toggle="dropdown"  href="javascript:;">Dropdown<b class="caret"></b></a>';
+                    break;
+            }
+            html += '<ul class="dropdown-menu numbers"><li ng-repeat="item in items"><a tabindex="-1" data-ng-click="selectVal(item)">{{item.id}}</a></li></ul></div>';
+            element.append($compile(html)(scope));
+            for (var i = 0; i < scope.items.length; i++) {
+                if (scope.items[i].id === scope.selectedItem) {
+                    scope.bSelectedItem = scope.items[i];
+                    break;
+                }
+            }
+            scope.selectVal = function (item) {
+                switch (attrs.menuType) {
+                    case "button":
+                        $('button.button-label', element).html(item.id);
+                        break;
+                    default:
+                        $('a.dropdown-toggle', element).html('<b class="caret"></b> ' + item.id);
+                        break;
+                }
+                scope.doSelect({
+                    selectedVal: item.id
+                });
+            };
+            scope.selectVal(scope.bSelectedItem);
+        }
+    };
+});
+
+
 inventoryApp.controller("homeController", function ($scope,ngDialog) {
 
   
@@ -22,13 +87,14 @@ inventoryApp.controller("homeController", function ($scope,ngDialog) {
     //console.log($scope.inventories2)
 
     $scope.pageClass="page-home";
+    $scope.selected_status = 1;
     $scope.cartItems =[];
 
     $scope.open = null;
-    $scope.addItems= function(item){
+    $scope.addItems= function(item,quantity){
         var newItem = {
            name:item.name,
-           quantity:item.quantity 
+           quantity: quantity
         }
         $scope.cartItems.push(newItem);
         console.log($scope.cartItems)

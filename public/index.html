@@ -100,6 +100,11 @@
 			</div><!-- /st-pusher -->
 		</div><!-- /st-container -->
 		<script type="text/ng-template" id="firstDialogId">
+		<div class="ngdialog-header">
+		<button type="button" class="ngdialog-button ngdialog-button-secondary" ng-click="openSecond()">Cancel</button>
+			Review your order
+			<button type="button" class="ngdialog-button ngdialog-button-primary" ng-click="openSecond()">next</button>
+		</div>
 		<div class="ngdialog-message">
 			<h3>ngDialog template</h3>
 			<p ng-show="theme">Test content for <code>{{theme}}</code></p>

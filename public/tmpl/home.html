@@ -14,42 +14,35 @@
                     <span ng-if="inventory.red.length>0" class="red typcn typcn-warning-outline"> {{inventory.red}}</span>
                     <span ng-if="inventory.amber.length>0" class="amber typcn typcn-delete-outline"> {{inventory.amber}}</span></div>
                 </a>
+              </div>
+                <div id="item_selected">
+                  <a href="#" id="close" ng-click="closeInventory()">close</a>
+                  <div id="itemName">
+                  <div class="imgHolder"></div>
+                  <div class="imgName">
+                    {{inventory.name}}
+                  </div>
+                  </div>
+                  <p class="itemDate">
+                    Date Issued: 20-Feb 2011
+                    Valid until: 20-Feb 2011
+                  </p>
 
+                  <p class="itemDescription">
+                    Lorem ipsum dolor est generetum est salum Lorem ipsum dolor est generetum est salum
+                  </p>
+
+                  <div id="itemDropdown">
+                    <div>Add this item to cart</div>
+                    <div class="dropdown">
+                      <bs-dropdown data-menu-type="button" select-val="selected_status = selectedVal"
+                     preselected-item="selected_status" data-dropdown-data="statuses"></bs-dropdown>  
+                    </div>  
+                    <div><button class="reserveNow typcn typcn-shopping-cart" ng-click="addItems(inventory,selected_status)"></button></div>
+                  </div>
               
-              </div>
-              <div id="item_selected">
-                <a href="#" id="close" ng-click="closeInventory()">close</a>
-                <div id="itemName">
-                <div class="imgHolder"></div>
-                <div class="imgName">
-                  {{inventory.name}}
-                </div>
-                </div>
-                <p class="itemDate">
-                  Date Issued: 20-Feb 2011
-                  Valid until: 20-Feb 2011
-                </p>
-
-                <p class="itemDescription">
-                  Lorem ipsum dolor est generetum est salum Lorem ipsum dolor est generetum est salum
-                </p>
-
-                <div id="itemDropdown">
-                  <div>Add this item to cart</div>
-                  <div class="dropdown">
-                  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="false">
-                    1
-                    <span class="caret"></span>
-                  </button>
-                  <ul class="dropdown-menu numbers" role="menu" aria-labelledby="dropdownMenu1">
-                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">1</a></li>
-                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">2</a></li>
-                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">3</a></li>
-                  </ul>
-                </div>
-                  <div><button class="reserveNow typcn typcn-shopping-cart" ng-click="addItems(inventory)"></button></div>
                 </div>  
-              </div>
+              
             </div><!-- /main -->
           </div>
 
