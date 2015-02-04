@@ -7,13 +7,14 @@
  * 
  * Copyright 2013, Codrops
  * http://www.codrops.com
- */
  $(window).bind(
   'touchmove',
    function(e) {
     e.preventDefault();
   }
 );
+ */
+ 
  var SidebarMenuEffects = (function() {
 
  	function hasParentClass( e, classname ) {

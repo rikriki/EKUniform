@@ -14,7 +14,6 @@ body,
 }
 
 .st-content {
-	overflow-y: scroll;
 	background: #f3efe0;
 }
 
@@ -24,7 +23,9 @@ body,
 }
 
 .st-container {
-	position: relative;
+	position: absolute;
+	top:0px;
+    width: 100%;
 	overflow: hidden;
 }
 
@@ -142,6 +143,9 @@ body,
 	transition: background 0.3s, box-shadow 0.3s;
 }
 
+.st-menu ul li a::before{
+	margin-right: 4px;
+}
 .st-menu ul li:first-child a {
 	box-shadow: inset 0 -1px #4c5564, inset 0 1px #4c5564;
 }
@@ -180,7 +184,22 @@ body,
 	padding-left: 300px;
 }
 
+.navbar-inverse{
+	position: fixed !important;
+    width: 100%;
+    z-index: 100;
+    top: 0px;
+}
 
+
+
+
+
+
+
+
+
+/* Home.html CSS*/
 #inventory{
 	-webkit-transition: all 0.5s;
 	transition: all 0.5s;
@@ -189,6 +208,7 @@ body,
 #st-inventory{
 	overflow: hidden;
 }
+
 #inventory>a{
 	display: block;
 	padding: 1em 1em 1em 1.2em;
@@ -200,8 +220,8 @@ body,
 	text-shadow: 0 0 1px rgba(255,255,255,0.1);
 	letter-spacing: 1px;
 	font-weight: 400;
-	-webkit-transition: background 0.3s, box-shadow 0.3s;
-	transition: background 0.3s, box-shadow 0.3s;
+	-webkit-transition: all 0.3s, box-shadow 0.3s;
+	transition: all 0.3s, box-shadow 0.3s;
 	position: relative;
 	background: #fefefe; /* Old browsers */
 	background: -moz-linear-gradient(top, #fefefe 0%, #dee0df 100%); /* FF3.6+ */
@@ -214,6 +234,13 @@ body,
 }
 #inventory>a{
 text-decoration: none;
+font-weight: bold;
+}
+#inventory>a.active{
+	background: #7fb1d2;
+    color: #ffffff;
+	
+	
 }
 #inventory >a> div{
 	font-size: 65%;
@@ -224,36 +251,54 @@ text-decoration: none;
 text-transform: uppercase;
 padding: 2px 4px;
 color: #fff;margin-right: 10px;
-}			
+
+}	
+#inventory >a> div > span::before{
+font-size: 1.3em!important;	
+}		
 .amber{
 	background-color: #ff9a02
 }
 .red{
 	background-color: #ce4e4d
 }			
-
+.ngViewed,#item_selected{
+padding-top: 53px;
+}
 /*Inventory item Push*/
 #item_selected {
     background-color: #fff;
     display: block;
     height: 100%;
-    position: absolute;
+    position: fixed;
     right: -350px;
-    top: 0;
+    top: 53px;
     width: 350px;
     -webkit-transition: all 0.5s;
     transition: all 0.5s;
     padding: 0px 10px;
+     z-index: 99;
 
 }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+	.inventory-open #inventory{
+		width: 66%!important;
+	}
 
+	.inventory-open #item_selected{
+		width: 350px!important;	
+		right:0px!important;
+		
+	}
+
+}
 .inventory-open #inventory{
-	width: 66%;
+	width: 70%;
 }
 
 .inventory-open #item_selected{
-	width: 350px;	
-	right:0px;
+	width: 30%;	
+	right:23px;
 }
 
 #itemName>*{
@@ -263,6 +308,21 @@ color: #fff;margin-right: 10px;
 	color: #333333;
 	font-size: 14px;
 	display: inline-table;
+}
+#itemName .imgHolder:before{
+	color: #fff;
+    display: inline-block;
+    font-family: "typicons";
+    font-size: 2.5em;
+    font-style: normal;
+    font-weight: normal;
+    left: 21px;
+    position: absolute;
+    text-align: center;
+    text-decoration: inherit;
+    text-rendering: optimizelegibility;
+    top: 19px;
+	content: '\e038';
 }
 .imgName{margin: auto;width:70%;}
 .imgHolder{
@@ -311,4 +371,31 @@ margin-right: 5px;
     margin-left: 8px;
     margin-right: 0;
     width: 20px;
+    font-size: 2.5em!important;
+
 }
+.uniform-title{
+	background-image: linear-gradient(to bottom, #3c3c3c 0%, #222 100%);
+	font-size: 1em;
+	color: #fff;
+	padding: 4px 0px 4px 55px;
+}
+.uniform-title span{
+	font-size: 1.5em
+}
+ 
+.uniform-title::before{
+	display: inline-block;
+    font-family: "typicons";
+    font-size: 3.5em;
+    font-style: normal;
+    font-weight: normal;
+    left: 16px;
+    position: absolute;
+    text-align: center;
+    text-decoration: inherit;
+    text-rendering: optimizelegibility;
+    top: 46px;
+	content: '\e12b';
+} 
+/* \HOME.html CSS*/

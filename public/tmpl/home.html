@@ -1,11 +1,16 @@
-            <div id="st-inventory" class="main clearfix" ng-class="{'inventory-open':inventoryStatus}">
-              
+            
+           <div>
+            <div id="st-inventory" class="main clearfix" ng-class="{'inventory-open':inventoryStatus}" >
+              <div class="uniform-title">
+                Uniform Items for:<br/>
+                <span>Grade 7 - Senior Flight Attendant</span>
+              </div>  
               <div id="inventory">
-                <a href="#" class="iconInvetoryBig iconInvetory-arrow" ng-click="openInventory(inventory.itemName)" data-ng-repeat="inventory in inventories">
+                <a href="" class="typcnAfter typcn-arrow-rightAfter" ng-class="{active:selectedItem==inventory.itemName}" ng-click="openInventory(inventory.itemName)" data-ng-repeat="inventory in inventories">
                   {{inventory.itemName}}
                   <div>
-                    <span ng-if="inventory.red.length>0" class="red iconInvetory icon-trash"> {{inventory.red}}</span>
-                    <span ng-if="inventory.amber.length>0" class="amber iconInvetory icon-bubble"> {{inventory.amber}}</span></div>
+                    <span ng-if="inventory.red.length>0" class="red typcn typcn-warning-outline"> {{inventory.red}}</span>
+                    <span ng-if="inventory.amber.length>0" class="amber typcn typcn-delete-outline"> {{inventory.amber}}</span></div>
                 </a>
 
               
@@ -40,10 +45,10 @@
                     <li role="presentation"><a role="menuitem" tabindex="-1" href="#">3</a></li>
                   </ul>
                 </div>
-                  <div><button class="reserveNow icon icon-shop"></button></div>
+                  <div><button class="reserveNow typcn typcn-shopping-cart" ng-click="addItems(inventory)"></button></div>
                 </div>  
               </div>
             </div><!-- /main -->
-    
+          </div>
 
 
